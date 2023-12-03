@@ -1,18 +1,21 @@
-// Declare uma variável contendo uma string
-var teste = "string";
-// Declare uma variável contendo um número dentro de uma string
-var teste2 = "1";
+// Qual o resultado da seguinte expressão?
+var total = 10 + (5 * 2) / 2 + 20;
 
-// Declare uma variável com a sua idade
-var idade = "17";
-// Declare duas variáveis, uma com seu nome
-// e outra com seu sobrenome e some as mesmas
-var nome = "miguel";
-var sobrenome = "sanglard";
-junto = nome + sobrenome;
-console.log(junto);
+// Crie duas expressões que retornem NaN
+var numero1 = "total" / 2;
+var numero2 = "total" + 2;
 
-// Coloque a seguinte frase em uma variável: It's time
-var frase = "It's time";
-// Verifique o tipo da variável que contém o seu nome
-console.log(typeof nome);
+// console.log(teste);
+// Somar a string '200' com o número 50 e retornar 250
+var duzentos = +"200";
+var cinquenta = 50;
+teste1 = duzentos + cinquenta;
+
+// Incremente o número 5 e retorne o seu valor incrementado
+teste3 = teste1 + 5;
+
+// Como dividir o peso por 2?
+var numero = +"80" / 2;
+var unidade = "kg";
+var peso = numero + unidade; // '80kg'
+var pesoPorDois = peso; // NaN (Not a Number)
