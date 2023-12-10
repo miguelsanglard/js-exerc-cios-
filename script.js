@@ -1,21 +1,54 @@
-// Qual o resultado da seguinte expressão?
-var total = 10 + (5 * 2) / 2 + 20;
+// Verifique se a sua idade é maior do que a de algum parente
+// Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
+var minhaidade = 17;
+var idadeparente = 24;
+if (minhaidade > idadeparente) {
+  console.log("É maior");
+} else if (minhaidade < idadeparente) {
+  console.log("É menor");
+} else if (minhaidade === idadeparente) {
+  console.log("É igual");
+}
 
-// Crie duas expressões que retornem NaN
-var numero1 = "total" / 2;
-var numero2 = "total" + 2;
+// Qual valor é retornado na seguinte expressão?
+var expressao = 5 - 2 && 5 - " " && 5 - 2;
+true;
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome = "Andre";
+var idade = 28;
+var possuiDoutorado = false;
+var empregoFuturo;
+var dinheiroNaConta = 0;
 
-// console.log(teste);
-// Somar a string '200' com o número 50 e retornar 250
-var duzentos = +"200";
-var cinquenta = 50;
-teste1 = duzentos + cinquenta;
+console.log(
+  !!nome,
+  !!idade,
+  !!possuiDoutorado,
+  !!empregoFuturo,
+  !!dinheiroNaConta
+);
 
-// Incremente o número 5 e retorne o seu valor incrementado
-teste3 = teste1 + 5;
+// Compare o total de habitantes do Brasil com China (valor em milhões)
+var brasil = 207e6;
+var china = 1340e6;
+if (brasil == china) {
+  console.log("É igual");
+} else {
+  console.log("Não é igual");
+}
 
-// Como dividir o peso por 2?
-var numero = +"80" / 2;
-var unidade = "kg";
-var peso = numero + unidade; // '80kg'
-var pesoPorDois = peso; // NaN (Not a Number)
+if ("Gato" === "gato" && 5 > 2) {
+  // O que irá aparecer no console?
+  console.log("Verdadeiro");
+} else {
+  console.log("Falso");
+}
+// Falso
+
+// O que irá aparecer no console?
+if ("Gato" === "gato" || 5 > 2) {
+  console.log("Gato" && "Cão");
+} else {
+  console.log("Falso");
+}
+// Cão
